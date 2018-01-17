@@ -1,4 +1,8 @@
 def findsg(data):
+	"""
+	an array of integers,every element appears twice except for one
+	find the single one
+	"""	
 	length = len(data)
 	num = 0
 	for i in range(length):
